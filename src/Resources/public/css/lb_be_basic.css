@@ -1,3 +1,6 @@
+body {
+	font-family: 'Lato';
+}
 /* ///// Icons for backend ///// */
 #tl_navigation .tl_level_1_group .group-lb_branding {
     background: url(../icons/lb-branding.svg) 3px 2px no-repeat;
@@ -331,9 +334,11 @@ body {
 	background: var(--cc-black);
 	color: var(--cc-lightgrey);
 } 
+#tl_navigation .menu_level_1 li,
 #container #left #tl_navigation .tl_level_2 li {
     border-left: 4px solid var(--cc-black);
 }
+#tl_navigation .menu_level_1 li.current,
 #container #left #tl_navigation .tl_level_2 li.active {
     background: var(--cc-black);
     border-left-color: var(--cc-brandcolor1);
@@ -432,8 +437,8 @@ fieldset.tl_box legend {
 	border-top: solid 1px var(--cc-midgrey);
 }
 button#save.tl_submit, button#saveNclose.tl_submit, button#saveNcreate.tl_submit, 
-button#saveNduplicate.tl_submit, button#saveNback.tl_submit {
-	margin-right: 20px;
+button#saveNduplicate.tl_submit, button#saveNback.tl_submit, button#saveNedit.tl_submit {
+	margin-right: 5px;
 	display: inline-block;
 	font-size: 16px;
 	font-weight: bold;
@@ -444,14 +449,24 @@ button#saveNduplicate.tl_submit, button#saveNback.tl_submit {
 	transition: all 0.2s cubic-bezier(.72,.28,.33,.93);
 	border-radius: 2px;
 	text-overflow: ellipsis;
-	background-color: var(--cc-brandcolor1);
-	color: var(--cc-white);
 	border: solid 2px var(--cc-brandcolor1);
 }
-button#save.tl_submit:hover, button#saveNclose.tl_submit:hover, button#saveNcreate.tl_submit:hover, 
-button#saveNduplicate.tl_submit:hover, button#saveNback.tl_submit:hover {
+button#save.tl_submit {
+	background-color: var(--cc-brandcolor1);
+	color: var(--cc-white);
+}
+button#saveNcreate.tl_submit, button#saveNduplicate.tl_submit, button#saveNback.tl_submit, button#saveNclose.tl_submit, button#saveNedit.tl_submit {
+	background-color: var(--cc-transparent);
+	color: var(--cc-brandcolor1);
+}
+button#save.tl_submit:hover {
 	background-color: var(--cc-white);
 	color: var(--cc-brandcolor1);
+}
+button#saveNcreate.tl_submit:hover, button#saveNclose.tl_submit:hover, button#saveNedit.tl_submit:hover,
+button#saveNduplicate.tl_submit:hover, button#saveNback.tl_submit:hover {
+	background-color: var(--cc-brandcolor1);
+	color: var(--cc-white);
 }
 /* to proove
 button#saveNclose.tl_submit {
@@ -476,5 +491,8 @@ button#sbtog {
 	text-align:left;
 	height: auto;	
 }
+/* modal boxes - not yet done (darkgrey background */
+.simple-modal-body {}
+
 
 
