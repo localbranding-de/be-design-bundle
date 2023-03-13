@@ -20,7 +20,7 @@ body {
 	font-size: 1rem;
 }
 a:hover, a:active {
-	color: var(--cc-brandcolor1);
+	color: var(--cc-cbe-brandcolor1);
 }
 
 /* ///// Sets LB Colors for BACKGROUND in select list ///// */
@@ -50,86 +50,56 @@ option[value=bg-lb-white] {
     background-color:var(--cc-white);
 }
 
-/* LB Secondary Colors Background */
-option[value=bg-lb-orange] {
-    background-color:var(--cc-orange);
+/* Colors UI Background */
+option[value=bg-lb-error] {
+    background-color:var(--cc-error);
 }
-option[value=bg-lb-blue] {
-    background-color:var(--cc-blue);
+option[value=bg-lb-success] {
+    background-color:var(--cc-success);
 }
-option[value=bg-lb-green] {
-    background-color:var(--cc-green);
+option[value=bg-lb-info] {
+    background-color:var(--cc-info);
 }
-option[value=bg-lb-yellow] {
-    background-color:var(--cc-yellow);
+option[value=bg-lb-signal] {
+    background-color:var(--cc-signal);
 }
-option[value=bg-lb-cyan] {
-    background-color:var(--cc-cyan);
+option[value=bg-lb-warning] {
+    background-color:var(--cc-warning);
 }
-option[value=bg-lb-magenta] {
-    background-color:var(--cc-magenta);
+option[value=bg-lb-inactive] {
+    background-color:var(--cc-inactive);
 }
-option[value=bg-lb-purple] {
-    background-color:var(--cc-purple);
+	
+/* Colors Content Background */
+option[value=bg-lb-contentcolor1] {
+    background-color:var(--cc-contentcolor1);
 }
-
-/* LB Product Colors lb.de Background */
-option[value=bg-lb-brandLead] {
-    background-color:var(--cc-brandLead);
+option[value=bg-lb-contentcolor2] {
+    background-color:var(--cc-contentcolor2);
 }
-option[value=bg-lb-brandSignal] {
-    background-color:var(--cc-brandSignal);
+option[value=bg-lb-contentcolor3] {
+    background-color:var(--cc-contentcolor3);
 }
-option[value=bg-lb-domain] {
-    background-color:var(--cc-domain);
+option[value=bg-lb-contentcolor4] {
+    background-color:var(--cc-contentcolor4);
 }
-option[value=bg-lb-email] {
-    background-color:var(--cc-email);
+option[value=bg-lb-contentcolor5] {
+    background-color:var(--cc-contentcolor5);
 }
-option[value=bg-lb-website] {
-    background-color:var(--cc-website);
+option[value=bg-lb-contentcolor6] {
+    background-color:var(--cc-contentcolor6);
 }
-option[value=bg-lb-lws] {
-    background-color:var(--cc-lws);
+option[value=bg-lb-contentcolor7] {
+    background-color:var(--cc-contentcolor7);
 }
-option[value=bg-lb-webshop] {
-    background-color:var(--cc-webshop);
+option[value=bg-lb-contentcolor8] {
+    background-color:var(--cc-contentcolor8);
 }
-option[value=bg-lb-secDataProt] {
-    background-color:var(--cc-secDataProt);
+option[value=bg-lb-contentcolor9] {
+    background-color:var(--cc-contentcolor9);
 }
-option[value=bg-lb-emm] {
-    background-color:var(--cc-emm);
-}
-option[value=bg-lb-some] {
-    background-color:var(--cc-some);
-}
-option[value=bg-lb-sea] {
-    background-color:var(--cc-sea);
-}
-option[value=bg-lb-seo] {
-    background-color:var(--cc-seo);
-}
-option[value=bg-lb-analytics] {
-    background-color:var(--cc-analytics);
-}
-option[value=bg-lb-pAd] {
-    background-color:var(--cc-pAd);
-}
-option[value=bg-lb-pFlyer] {
-    background-color:var(--cc-pFlyer);
-}
-option[value=bg-lb-pMailing] {
-    background-color:var(--cc-pMailing);
-}
-option[value=bg-lb-pStationary] {
-    background-color:var(--cc-pStationary);
-}
-option[value=bg-lb-lwsp] {
-    background-color:var(--cc-lwsp);
-}
-option[value=bg-lb-voucher] {
-    background-color:var(--cc-voucher);
+option[value=bg-lb-contentcolor10] {
+    background-color:var(--cc-contentcolor10);
 }
 
 /* ///// Sets LB Colors for TEXT in select list ///// */
@@ -154,26 +124,53 @@ option[value=text-lb-lightgrey] {
 option[value=text-lb-white] {
 	color: var(--cc-white);
 }
-option[value=text-lb-orange] {
-	color: var(--cc-orange);
+option[value=text-lb-error] {
+    background-color:var(--cc-error);
 }
-option[value=text-lb-blue] {
-	color: var(--cc-blue);
+option[value=text-lb-success] {
+    background-color:var(--cc-success);
 }
-option[value=text-lb-green] {
-	color: var(--cc-green);
+option[value=text-lb-info] {
+    background-color:var(--cc-info);
 }
-option[value=text-lb-yellow] {
-	color: var(--cc-yellow);
+option[value=text-lb-signal] {
+    background-color:var(--cc-signal);
 }
-option[value=text-lb-cyan] {
-	color: var(--cc-cyan);
+option[value=text-lb-warning] {
+    background-color:var(--cc-warning);
 }
-option[value=text-lb-magenta] {
-	color: var(--cc-magenta);
+option[value=text-lb-inactive] {
+    background-color:var(--cc-inactive);
 }
-option[value=text-lb-purple] {
-	color: var(--cc-purple);
+option[value=text-lb-contentcolor1] {
+    background-color:var(--cc-contentcolor1);
+}
+option[value=text-lb-contentcolor2] {
+    background-color:var(--cc-contentcolor2);
+}
+option[value=text-lb-contentcolor3] {
+    background-color:var(--cc-contentcolor3);
+}
+option[value=text-lb-contentcolor4] {
+    background-color:var(--cc-contentcolor4);
+}
+option[value=text-lb-contentcolor5] {
+    background-color:var(--cc-contentcolor5);
+}
+option[value=text-lb-contentcolor6] {
+    background-color:var(--cc-contentcolor6);
+}
+option[value=text-lb-contentcolor7] {
+    background-color:var(--cc-contentcolor7);
+}
+option[value=text-lb-contentcolor8] {
+    background-color:var(--cc-contentcolor8);
+}
+option[value=text-lb-contentcolor9] {
+    background-color:var(--cc-contentcolor9);
+}
+option[value=text-lb-contentcolor10] {
+    background-color:var(--cc-contentcolor10);
 }
 
 /* ///// Sets LB Colors for TEXT HOVER in select list ///// */
@@ -217,97 +214,71 @@ option[value=button4] {
 	color: var(--cc-white);
 }
 /* Secondary Button colors */
-option[value=button-blue] {
-	background-color: var(--cc-blue);
+option[value=button-error] {
+    background-color:var(--cc-error);
 }
-option[value=button-Green] {
-	background-color: var(--cc-green);
+option[value=button-success] {
+    background-color:var(--cc-success);
 }
-option[value=button-yellow] {
-	background-color: var(--cc-yellow);
+option[value=button-info] {
+    background-color:var(--cc-info);
 }
-option[value=button-cyan] {
-	background-color: var(--cc-cyan);
+option[value=button-signal] {
+    background-color:var(--cc-signal);
 }
-option[value=button-magenta] {
-	background-color: var(--cc-magenta);
+option[value=button-warning] {
+    background-color:var(--cc-warning);
 }
-option[value=button-purple] {
-	background-color: var(--cc-purple);
+option[value=button-inactive] {
+    background-color:var(--cc-inactive);
 }
-/* Product Button colors */
-option[value=button-brandLead] {
-	background-color: var(--cc-brandLead);
+
+/* Content Button colors */
+option[value=button-contentcolor1] {
+    background-color:var(--cc-contentcolor1);
 }
-option[value=button-brandSignal] {
-	background-color: var(--cc-brandSignal);
+option[value=button-contentcolor2] {
+    background-color:var(--cc-contentcolor2);
 }
-option[value=button-domain] {
-	background-color: var(--cc-domain);
+option[value=button-contentcolor3] {
+    background-color:var(--cc-contentcolor3);
 }
-option[value=button-email] {
-	background-color: var(--cc-email);
+option[value=button-contentcolor4] {
+    background-color:var(--cc-contentcolor4);
 }
-option[value=button-website] {
-	background-color: var(--cc-website);
+option[value=button-contentcolor5] {
+    background-color:var(--cc-contentcolor5);
 }
-option[value=button-lws] {
-	background-color: var(--cc-lws);
+option[value=button-contentcolor6] {
+    background-color:var(--cc-contentcolor6);
 }
-option[value=button-webshop] {
-	background-color: var(--cc-webshop);
+option[value=button-contentcolor7] {
+    background-color:var(--cc-contentcolor7);
 }
-option[value=button-secDataProt] {
-	background-color: var(--cc-secDataProt);
+option[value=button-contentcolor8] {
+    background-color:var(--cc-contentcolor8);
 }
-option[value=button-emm] {
-	background-color: var(--cc-emm);
+option[value=button-contentcolor9] {
+    background-color:var(--cc-contentcolor9);
 }
-option[value=button-some] {
-	background-color: var(--cc-some);
-}
-option[value=button-sea] {
-	background-color: var(--cc-sea);
-}
-option[value=button-seo] {
-	background-color: var(--cc-seo);
-}
-option[value=button-analytics] {
-	background-color: var(--cc-analytics);
-}
-option[value=button-pAd] {
-	background-color: var(--cc-pAd);
-}
-option[value=button-pFlyer] {
-	background-color: var(--cc-pFlyer);
-}
-option[value=button-pMailing] {
-	background-color: var(--cc-pMailing);
-}
-option[value=button-pStationary] {
-	background-color: var(--cc-pStationary);
-}
-option[value=button-lwsp] {
-	background-color: var(--cc-lwsp);
-}
-option[value=button-voucher] {
-	background-color: var(--cc-voucher);
+option[value=button-contentcolor10] {
+    background-color:var(--cc-contentcolor10);
 }
 
 /* basics body, container etc.*/
 body {
-	background: #000 radial-gradient(var(--cc-darkgrey),var(--cc-black));
+	background: #000 radial-gradient(var(--cc-cbe-darkgrey),var(--cc-cbe-black));
 	color: var(--cc-black);
 }
 #header .inner {
-	background: var(--cc-brandcolor1);
+	background: var(--cc-cbe-brandcolor1);
 }
 /*    spätere Bearbeitung !!!
 #header {
 	min-height: 60px;
 }
 #header .inner {
-	background: var(--cc-white);
+	background: var(--cc-cbe-white);
 	height: 60px;
 }
 #header .inner h1 {
@@ -316,7 +287,7 @@ body {
 #header .inner .lb-logo {
 	height: 60px;
 	width: 225px;
-	background-color: var(--cc-white);
+	background-color: var(--cc-cbe-white);
 	background-image: url('files/theme_lb_de/img/logo/Logo.svg');
 	background-repeat: no-repeat; 
 	position: absolute;
@@ -328,30 +299,30 @@ body {
 }
 */
 #container #left {
-	background: var(--cc-black);
+	background: var(--cc-cbe-black);
 }
 #container #left .version, #container #left .version a {
-	background: var(--cc-black);
+	background: var(--cc-cbe-black);
 	color: var(--cc-lightgrey);
 } 
 #tl_navigation .menu_level_1 li,
 #container #left #tl_navigation .tl_level_2 li {
-    border-left: 4px solid var(--cc-black);
+    border-left: 4px solid var(--cc-cbe-black);
 }
 #tl_navigation .menu_level_1 li.current,
 #container #left #tl_navigation .tl_level_2 li.active {
-    background: var(--cc-black);
-    border-left-color: var(--cc-brandcolor1);
+    background: var(--cc-cbe-black);
+    border-left-color: var(--cc-cbe-brandcolor1);
 }
 #container #left #tl_navigation .tl_level_2 a {
-    color: var(--cc-lightgrey);
+    color: var(--cc-cbe-lightgrey);
 }
 #main .content {
 	margin:0;
 	padding:20px;
 }
 #main .content fieldset {
-	border-bottom: solid 1px var(--cc-midgrey);
+	border-bottom: solid 1px var(--cc-cbe-midgrey);
 }
 #main .content fieldset .rsce_list_inner fieldset {
 	border-bottom: 0;
@@ -360,7 +331,7 @@ body {
 /* ///// Formates LB subheadingss in select lists ///// */
 option[value=sh-01], option[value=sh-02], option[value=sh-03], option[value=sh-04], option[value=sh-05], 
 option[value=sh-06], option[value=sh-07], option[value=sh-08], option[value=sh-09], option[value=sh-10]  {
-	color: var(--cc-brandcolor1);
+	color: var(--cc-cbe-brandcolor1);
 	font-weight: 700;
 	font-style: italic;
 }
@@ -382,8 +353,8 @@ option[value=sh-00] {
 /* group headlines inside lists / fieldsets */
 .rsce_list_item .rsce_list_item_title {
 	padding: 20px 15px;
-	background-color: var(--cc-darkgrey);
-	color:var(--cc-white);
+	background-color: var(--cc-cbe-darkgrey);
+	color:var(--cc-cbe-white);
 	font-size: 18px;
 }
 fieldset.tl_box legend {
@@ -393,7 +364,7 @@ fieldset.tl_box legend {
     margin-top: 11px!important;
     margin-right: 10px!important;
     padding: 8px;
-    background-color: var(--cc-white);
+    background-color: var(--cc-cbe-white);
 }
 .rsce_list_inner .rsce_list_toolbar  {
 	background: transparent;    
@@ -406,8 +377,8 @@ fieldset.tl_box legend {
 	width: 96%;
 }
 .rsce_list_inner .rsce_list_inner .rsce_list_item h2.rsce_list_item_title  {
-	background-color: var(--cc-lightgrey);
-	color: var(--cc-black);
+	background-color: var(--cc-cbe-lightgrey);
+	color: var(--cc-cbe-black);
 	height: 20px;
 }
 .rsce_list_inner .rsce_list_inner .rsce_list_item .rsce_list_toolbar {
@@ -423,18 +394,16 @@ fieldset.tl_box legend {
 .rsce_list_inner .rsce_list_inner .rsce_list_item .tl_box .w50.widget h3 {
 	padding-top: 4px;
 }
-.rsce_list_inner .rsce_list_inner .rsce_list_item:last-child {
-}
 .tl_tbox, .tl_box { /* nach oben ???? zeile 335*/
     padding: 0;
     border: none;
     padding-bottom: 20px;
-   /*  border-bottom: solid 1px var(--cc-midgrey); */
+   /*  border-bottom: solid 1px var(--cc-cbe-midgrey); */
 }
 .tl_submit_container {
-	background: var(--cc-white);
+	background: var(--cc-cbe-white);
 	padding-top:20px;
-	border-top: solid 1px var(--cc-midgrey);
+	border-top: solid 1px var(--cc-cbe-midgrey);
 }
 button#save.tl_submit, button#saveNclose.tl_submit, button#saveNcreate.tl_submit, 
 button#saveNduplicate.tl_submit, button#saveNback.tl_submit, button#saveNedit.tl_submit {
@@ -449,24 +418,24 @@ button#saveNduplicate.tl_submit, button#saveNback.tl_submit, button#saveNedit.tl
 	transition: all 0.2s cubic-bezier(.72,.28,.33,.93);
 	border-radius: 2px;
 	text-overflow: ellipsis;
-	border: solid 2px var(--cc-brandcolor1);
+	border: solid 2px var(--cc-cbe-brandcolor1);
 }
 button#save.tl_submit {
-	background-color: var(--cc-brandcolor1);
+	background-color: var(--cc-cbe-brandcolor1);
 	color: var(--cc-white);
 }
 button#saveNcreate.tl_submit, button#saveNduplicate.tl_submit, button#saveNback.tl_submit, button#saveNclose.tl_submit, button#saveNedit.tl_submit {
-	background-color: var(--cc-transparent);
-	color: var(--cc-brandcolor1);
+	background-color: var(--cc-cbe-transparent);
+	color: var(--cc-cbe-brandcolor1);
 }
 button#save.tl_submit:hover {
-	background-color: var(--cc-white);
-	color: var(--cc-brandcolor1);
+	background-color: var(--cc-cbe-white);
+	color: var(--cc-cbe-brandcolor1);
 }
 button#saveNcreate.tl_submit:hover, button#saveNclose.tl_submit:hover, button#saveNedit.tl_submit:hover,
 button#saveNduplicate.tl_submit:hover, button#saveNback.tl_submit:hover {
-	background-color: var(--cc-brandcolor1);
-	color: var(--cc-white);
+	background-color: var(--cc-cbe-brandcolor1);
+	color: var(--cc-cbe-white);
 }
 /* to proove
 button#saveNclose.tl_submit {
@@ -477,7 +446,7 @@ button#saveNclose.tl_submit {
 button#sbtog {
 	height: 40px;
 	line-height:33px;
-	border: solid 2px var(--cc-brandcolor1);
+	border: solid 2px var(--cc-cbe-brandcolor1);
 	border-left: 0;
 }
 /* SPECIAL RULES FOR RSCEs */
@@ -491,8 +460,8 @@ button#sbtog {
 	text-align:left;
 	height: auto;	
 }
-/* modal boxes - not yet done (darkgrey background */
+/* modal boxes - not yet done (darkgrey background 
 .simple-modal-body {}
-
+*/
 
 

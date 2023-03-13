@@ -1,8 +1,8 @@
 /* 	LocalBranding CSS (Contao)/
 	Author: (c) LocalBranding 2021
-	Theme: theme_lb_be_de 
-	lb_be_default.css - the 1. lb-css-file of the lb_be_theme
-	Version: 2021-01-02	
+	be-design-bundle
+	lb_be_default.css
+	Version: 2023-03-11	
 */
 
 /* ------------------------------ ///// FONT-FACE start ///// ------------------------------ */
@@ -36,59 +36,63 @@
 /* ------------------------------ ///// FONT-FACE end ///// ------------------------------ */
 
 :root{
-    /* ///// Core Colors ///// */
-    /* Brand Colors / Primary Colors */
-    --cc-brandcolor1: #ee7100; 
-    --cc-brandcolor2: #2f2f2f; 
-    
-    /* Greytones */
-	--cc-transparent:transparent;
-    --cc-black: #2f2f2f;
-    --cc-darkgrey: #635d5d;
-    --cc-midgrey: #c2c2c2;
-    --cc-lightgrey: #f2f2f2;
-    --cc-white: #ffffff;
-    
-    /* UI Colors */
-    --cc-info: #107bd8;
-    --cc-success: #10d874;
-    --cc-warning: #eec603;  
-    --cc-error: #d8105b;
-    --cc-signal: #b232aa;
-    --cc-inactive: #c2c2c2;
-    --cc-bodybackground: #ffffff;    
+/* ------------------------------ ///// BE BRANDING LB COLORS FOR CONTAO BACKEND start ///// ------------------------------ */
 
-    /* Secondary Colors */
-    --cc-orange: #ee7100;
-    --cc-blue: #107bd8;
-    --cc-green: #10d874;
-    --cc-yellow: #eec603;
-    --cc-cyan: #47befb;
-    --cc-magenta: #d8105b;
-    --cc-purple: #b232aa;
+	/* For creation of design and content-elements of the CONTAO BACKEND in LB Styles */
     
-	/* Product Colors lb.de */
-	--cc-brandLead: #d1bb7f;
-	--cc-brandSignal: #ef357c;
-	--cc-domain: #165791;
-	--cc-email: #107bd8;
-	--cc-website: #eec602;
-	--cc-lws: #10D875;
-	--cc-webshop: #ca3730;
-	--cc-secDataProt: #00aa01;
-	--cc-emm: #b14ec2;
-	--cc-some: #38b99b;
-	--cc-sea:#f05f70;
-	--cc-seo:#10d1d8;
-	--cc-analytics:#a58902;
-	--cc-pAd:#a0e439;
-	--cc-pFlyer: #5721b7;
-	--cc-pMailing: #119dd8;
-	--cc-pStationary:#905101;
-	--cc-lwsp:#ed706a;
-	--cc-voucher:#74dd21;
+    /* Contao BE Brand Colors / Primary Colors */	
+	--cc-cbe-brandcolor1: #ee7100; 
+    --cc-cbe-brandcolor2: #2f2f2f; 
+    
+    /* Contao BE Greytones */
+	--cc-cbe-transparent:transparent;
+    --cc-cbe-black: #2f2f2f;
+    --cc-cbe-darkgrey: #635d5d;
+    --cc-cbe-midgrey: #c2c2c2;
+    --cc-cbe-lightgrey: #f2f2f2;
+    --cc-cbe-white: #ffffff;
+/* ------------------------------ ///// BE BRANDING LB COLORS FOR CONTAO BACKEND end ///// ------------------------------ */
+
+
+/* ------------------------------ ///// FE COLORS FOR STYLING OF CUSTOM ELEMENTS start ///// ------------------------------ */
 	
-	/* Transparancies */
-    --cc-brandcolor1-80: rgba(238,113,0,0.8);
-    --cc-black-80: rgba(33,31,31,0.8);
+	/* For creation of design and content-elements of the front end */
+	/* Similar to color-variables of file lb_variables_default.css for frontend */
+    
+	/* Brand Colors Primary */
+    --cc-brandcolor1: #85bc25; 
+    --cc-brandcolor2: #ffcc00;  
+
+	/* Colors layout */
+    --cc-bodybackground: #F5F5F5;
+  	--cc-navbar: #fff; 
+  	--cc-footer: #3f3f3a;
+
+	/* Colors Greytones */
+  	--cc-black: #3f3f3a;
+  	--cc-darkgrey: #4C4C4C;
+  	--cc-midgrey: #635D5D;
+  	--cc-lightgrey: #c2c2c2;
+  	--cc-white: #fff;
+
+	/* Colors UI */
+    --cc-error: #FB4747;
+    --cc-success: #A3E82B;
+  	--cc-info: #47BEFB;
+    --cc-signal: #FB8447;
+    --cc-warning: #FBD747;
+    --cc-inactive: #9d9d9d;  
+	
+	/* Colors Content */
+  	--cc-contentcolor1: #ffffff;
+  	--cc-contentcolor2: #ffffff;
+  	--cc-contentcolor3: #ffffff;
+  	--cc-contentcolor4: #ffffff;
+  	--cc-contentcolor5: #ffffff;
+  	--cc-contentcolor6: #ffffff;
+  	--cc-contentcolor7: #ffffff;
+  	--cc-contentcolor8: #ffffff;
+  	--cc-contentcolor9: #ffffff;
+  	--cc-contentcolor10: #ffffff;
+  		
 } 
